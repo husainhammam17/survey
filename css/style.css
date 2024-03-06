@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+:root {
+  --color1: #395886;
+  --color2: #638ecb;
+  --color3: rgb(138, 174, 224);
+  --color4: #b1c9ef;
+  --color5: #d5deef;
+  --color6: #f0f3fa;
+
+  --primary-color: #057a8d;
+  --secondary-color: #f1c111;
+  --white-color: #ffffff;
+  --dark-color: #171819;
+  --project-bg: #f0f8ff;
+  --menu-bg: #014daf;
+  --green: #16a75c;
+
+  --title-color: #15141a;
+  --gray-color: #909090;
+  --link-color: #404040;
+  --p-color: #666262;
+  --gold: #ffd900;
+  --navy: #0f0097;
+}
+
+.navbar {
+  background: linear-gradient(to top right, var(--menu-bg), var(--green));
+  margin-bottom: 3rem;
+}
+
+.navbar .container .logo-brand {
+  /* color: var(--white-color); */
+  width: 17rem;
+  height: 4rem;
+}
+
+li a {
+  color: var(--white-color);
+}
+
+/* footer */
+.site-footer {
+  background: var(--dark-color);
+  padding: 7rem 0 6rem 0;
+}
+
+.site-footer .custom-color .gradient-text {
+  background: -webkit-linear-gradient(45deg, #014daf, #16a75c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.site-footer h4,
+p {
+  color: var(--p-color);
+}
+
+.site-footer a {
+  text-decoration: none;
+  color: #666262;
+}
+
+.site-footer a:hover,
+.footer-icon {
+  background: linear-gradient(to top right, var(--menu-bg), var(--green));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.footer-link li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+}
+
+.copyright-text,
+.footer-link,
+.site-footer .social-icon {
+  margin-top: 6em;
+}
+
+.copyright-text {
+  margin-top: 5.3em;
+}
+
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 4em 0 0 0;
+}
+
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+}
+
+.social-icon li a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: var(--base-font-size);
+  margin: 10px;
+  text-align: center;
+}

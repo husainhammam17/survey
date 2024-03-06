@@ -1,0 +1,50 @@
+:root {
+  --color_1: #014daf;
+  --color_2: #16a75c;
+}
+
+.banner-container {
+  display: block;
+  background-image: linear-gradient(
+    to top right,
+    rgb(1, 77, 175),
+    rgb(22, 167, 92)
+  );
+  animation-name: backgroundColorPalette;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  padding: 2%;
+}
+
+/* rgb fuction */
+/* @keyframes backgroundColorPalette {
+    0% {
+        background: #119071;
+    }
+
+    25% {
+        background: #0A738B;
+    }
+
+    50% {
+        background: #045ba1;
+    }
+
+    75% {
+        background: #0c7d83;
+    }
+
+    100% {
+        background: #15a162;
+    }
+} */
+
+.wrapper {
+  display: flex;
+  grid-template-columns: repeat(3, 1.2fr);
+  grid-auto-rows: 45%;
+  column-gap: 20px;
+  row-gap: 20px;
+}
